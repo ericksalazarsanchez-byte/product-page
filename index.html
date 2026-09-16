@@ -1,60 +1,85 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brujulas Brunton</title>
+    <title>Brújulas Brunton | Equipos de Precisión</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <section>
-            <h1>Brujulas Brunton</h1>
-            <p>Brujulas Brunton es una empresa especializada en la fabricación de brujulas de alta precisión.</p>
-            </section>
-            <section>
-                <nav>
-                    <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Modelos</a></li>
-                        <li><a href="#">Características</a></li>
-                        <li><a href="#">Contacto</a></li>
-                    </ul>
-                </nav>
-            </section>
-            </header>
-                
-            <main>
-                <section id="hero">
-                    <h2>Las mejores Brujulas del Perú</h2>
-                    <p>Ofrecemos una amplia gama de modelos de brujulas para satisfacer las necesidades de nuestros clientes.</p>
-                    <img src="brujulas-brunton.jpg" width="250" height="250" alt="Brujulas Brunton">
-                </section>
+        <div class="header-container">
+            <h1>Brújulas Brunton</h1>
+            <nav aria-label="Navegación principal">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#modelos">Modelos</a></li>
+                    <li><a href="#caracteristicas">Características</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <!-- Logro Extra 1: Toggle de Modo Oscuro -->
+                    <li>
+                        <button id="theme-toggle" aria-label="Alternar modo oscuro">
+                            <span class="icon">🌙</span> Dark Mode
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-                <section id="Características">
-                    <h2>Características Destacadas</h2>
-                    <div class="Card-caracteristicas">
-                        <h3>Precisión</h3>
-                    <div class="Card-caracteristicas">
-                        <h3>Durabilidad</h3>
-                    <div class="Card-caracteristicas">
-                        <h3>Diseño Ergonomico</h3>
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h2>Las mejores Brújulas del Perú</h2>
+                <p>Ofrecemos una amplia gama de modelos diseñados para satisfacer las exigencias del cartografiado geológico en campo y la evaluación estructural.</p>
+                <!-- Recuerda tener tu imagen brujulas-brunton.jpg en la misma carpeta -->
+                <img src="brujulas-brunton.jpg" alt="Brújula Brunton profesional abierta, mostrando el limbo graduado y el nivel tubular" width="400">
+            </div>
+        </section>
 
+        <section id="caracteristicas" class="features">
+            <h2>Características Destacadas</h2>
+            <div class="cards-container">
+                <article class="card">
+                    <h3>Precisión</h3>
+                    <p>Mediciones exactas de rumbo, buzamiento y azimut para garantizar la calidad de tu base de datos estructural.</p>
+                </article>
+                <article class="card">
+                    <h3>Durabilidad</h3>
+                    <p>Carcasas de aluminio fundido resistentes al agua y a las condiciones más extremas de exploración.</p>
+                </article>
+                <article class="card">
+                    <h3>Versatilidad</h3>
+                    <p>Ideal para levantamientos topográficos, geomecánica y mapeo de afloramientos rocosos.</p>
+                </article>
+            </div>
+        </section>
 
-                </section>
-                <section id="Modelos">
-                    <h2>Contáctanos</h2>
-                    <form action="submit_form.php" method="post">
-                        <label for="name">Nombre:</label>
-                        <input type="text" id="name" name="name" required>
+        <section id="contacto" class="contact">
+            <h2>Solicita tu Cotización</h2>
+            <!-- Formulario de contacto accesible -->
+            <form action="#" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre Completo (Requerido)</label>
+                    <input type="text" id="nombre" name="nombre" required aria-required="true" placeholder="Ej. Juan Pérez">
+                </div>
+                <div class="form-group">
+                    <label for="correo">Correo Electrónico (Requerido)</label>
+                    <input type="email" id="correo" name="correo" required aria-required="true" placeholder="tu@correo.com">
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje (Requerido)</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required aria-required="true" placeholder="Detalla el modelo o cantidad que necesitas..."></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Enviar Solicitud</button>
+            </form>
+        </section>
+    </main>
 
-                        <label for="email">Correo Electrónico:</label>
-                        <input type="email" id="email" name="email" required>
+    <footer>
+        <p>&copy; 2026 Brújulas Brunton Perú. Todos los derechos reservados.</p>
+    </footer>
 
-                        <label for="message">Mensaje:</label>
-                        <textarea id="message" name="message" required></textarea>
-
-                        <button type="submit">Enviar</button>
-                    </form>
-                </section>
-                <footer>
-                    <p>&copy; 2024 Brujulas Brunton. Todos los derechos reservados.</p>
-
+    <script src="script.js"></script>
+</body>
+</html>
