@@ -15,122 +15,130 @@
         <ul class="nav-list">
           <li><a href="#inicio">Inicio</a></li>
           <li><a href="#modelos">Modelos</a></li>
-          <li><a href="#caracteristicas">Características</a></li>
-          <li><a href="#testimonios">Testimonios</a></li>
+          <li><a href="#planes">Planes</a></li>
           <li><a href="#contacto">Contacto</a></li>
-          <li>
-            <button id="theme-toggle" class="btn-theme" aria-label="Alternar Modo Oscuro">
-              <span class="icon">🌙</span> Dark Mode
-            </button>
-          </li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main>
+    <!-- SECCIÓN INICIO (HERO Y LANDING ORIGINAL) -->
     <section id="inicio" class="hero">
       <div class="hero-content">
         <h2>Las mejores Brújulas del Perú</h2>
         <p>Ofrecemos una amplia gama de modelos diseñados para satisfacer las exigencias del cartografiado geológico en campo y la evaluación estructural.</p>
-        <a href="#modelos" class="btn-primary">Ver Catálogo</a>
-      </div>
-      <div class="hero-image-container">
-        <img src="brujulas-brunton.jpg" alt="Brújula Brunton en campo" class="crop-image">
+        <a href="#planes" class="btn-primary">Ver Planes de Compra</a>
       </div>
     </section>
 
-    <section id="caracteristicas" class="features-section">
-      <h2>Nuestras Ventajas</h2>
-      <div class="cards-grid">
+    <!-- SECCIÓN MODELOS (CATÁLOGO ORIGINAL DE LABORATORIOS ANTERIORES) -->
+    <section id="modelos" class="modelos-container">
+      <h2>Nuestros Modelos Destacados</h2>
+      <div class="modelos-grid">
         <article class="card">
-          <h3>Alta Precisión</h3>
-          <p>Lecturas acimutales exactas para mapeo geológico y mediciones estructurales de rumbo y buzamiento.</p>
+          <img src="brunton2.jpg" alt="Brújula Brunton Geo Transit">
+          <h3>Brunton Geo Transit</h3>
+          <p>Cuerpo de aluminio billet, medición directa de rumbos y buzamientos con azimut de precisión.</p>
         </article>
+
         <article class="card">
-          <h3>Cuerpo Resistente</h3>
-          <p>Sellado contra polvo y humedad, con cuerpo de aluminio anodizado de alta visibilidad y duración.</p>
+          <img src="brunton3.jpg" alt="Brújulas de Bolsillo">
+          <h3>Brunton Pocket Transit</h3>
+          <p>El estándar clásico internacional con aguja de imán de alnico e inclinómetro integrado.</p>
         </article>
+
         <article class="card">
-          <h3>Amortiguación Magnética</h3>
-          <p>Mecanismo de inducción que estabiliza la aguja rápidamente para tomar datos expeditos en campo.</p>
+          <img src="brunton4.jpg" alt="Brújula Brunton Axis">
+          <h3>Brunton Axis Transit</h3>
+          <p>Diseño innovador con rotación dual para mediciones estructurales simultáneas.</p>
         </article>
       </div>
     </section>
 
-    <section id="modelos" class="gallery-section">
-      <h2>Galería de Modelos</h2>
-      <div class="gallery-grid">
-        <figure class="gallery-item">
-          <div class="gallery-img-container">
-            <img src="brunton2.jpg" alt="Brunton Geo Pocket Compass" class="crop-image">
-          </div>
-          <figcaption>Brunton Geo Pocket Compass - Cuerpo de Aluminio</figcaption>
-        </figure>
-        <figure class="gallery-item">
-          <div class="gallery-img-container">
-            <img src="brunton3.jpg" alt="Brunton Standard Transit" class="crop-image">
-          </div>
-          <figcaption>Brunton Standard Transit - Escala en Grados</figcaption>
-        </figure>
-        <figure class="gallery-item">
-          <div class="gallery-img-container">
-            <img src="brunton4.jpg" alt="Brunton Axis Pocket Compass" class="crop-image">
-          </div>
-          <figcaption>Brunton Axis Pocket Compass - Medición Simultánea</figcaption>
-        </figure>
+    <!-- SECCIÓN PLANES DE COMPRA -->
+    <section id="planes" class="planes-container">
+      <h2>Planes de Compra</h2>
+      <div class="planes-grid">
+        <article class="plan">
+          <h3>Plan Estudiante</h3>
+          <p class="precio">S/ 450</p>
+          <p class="plan-desc">Perfecto para prácticas universitarias e iniciación en geología de campo.</p>
+          <ul class="plan-features">
+            <li> Brújula Geológica Básica</li>
+            <li> Funda protectora ligera</li>
+            <li> Certificado de calibración estándar</li>
+          </ul>
+          <a href="#contacto" class="btn-plan">Elegir Plan</a>
+        </article>
+
+        <article class="plan destacado">
+          <span class="badge">Más Popular</span>
+          <h3>Plan Pro Geólogo</h3>
+          <p class="precio">S/ 1,200</p>
+          <p class="plan-desc">Para profesionales serios y proyectos de exploración minera.</p>
+          <ul class="plan-features">
+            <li> Brújula Brunton Geo Transit Pro</li>
+            <li> Estuche de cuero de alta resistencia</li>
+            <li> Calibración de alta precisión de fábrica</li>
+            <li> Soporte técnico prioritario</li>
+          </ul>
+          <a href="#contacto" class="btn-plan">Elegir Plan</a>
+        </article>
+
+        <article class="plan">
+          <h3>Plan Corporativo</h3>
+          <p class="precio">Cotización</p>
+          <p class="plan-desc">Ideal para empresas mineras, consultoras y universidades por lote.</p>
+          <ul class="plan-features">
+            <li> Lotes a partir de 10 unidades</li>
+            <li> Descuento por volumen</li>
+            <li> Mantenimiento anual incluido</li>
+          </ul>
+          <a href="#contacto" class="btn-plan">Elegir Plan</a>
+        </article>
       </div>
     </section>
 
-    <section id="testimonios" class="testimonials-section">
-      <h2>Lo que dicen los profesionales</h2>
-      <div class="testimonials-grid">
-        <article class="testimonial-card">
-          <p class="quote">"Su precisión en levantamientos geomecánicos es insuperable. Indispensable en mapeo de campo."</p>
-          <span class="author">— Ing. Carlos Mendoza (Geólogo de Exploraciones)</span>
-        </article>
-        <article class="testimonial-card">
-          <p class="quote">"La durabilidad de las brújulas Brunton resiste el trabajo pesado en minería subterránea."</p>
-          <span class="author">— Ing. Sofía Torres (Supervisora Geomecánica)</span>
-        </article>
-      </div>
+    <!-- SECCIÓN CONTACTO (FORMULARIO VALIDADO) -->
+    <section id="contacto" class="contacto-container">
+      <h2>Contáctanos</h2>
+      <p class="contacto-sub">Solicita tu cotización o aclara tus dudas técnicas.</p>
+      
+      <form>
+        <label for="nombre">Nombre completo (mín. 3 letras)</label>
+        <input type="text" id="nombre" name="nombre" required minlength="3" placeholder="Ej. Erick Salazar">
+
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" required placeholder="Ejem. hola@ejemplo.com">
+
+        <label for="telefono">Teléfono (Exactamente 9 dígitos)</label>
+        <input type="tel" id="telefono" name="telefono" pattern="[0-9]{9}" required placeholder="Ejem. 989940984">
+
+        <label for="motivo">Motivo de Contacto</label>
+        <select id="motivo" name="motivo" required>
+          <option value="">Selecciona un motivo</option>
+          <option value="consulta">Consulta de productos</option>
+          <option value="compra">Compra / Cotización de plan</option>
+          <option value="soporte">Soporte técnico</option>
+        </select>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required minlength="10" placeholder="Escribe detalles de tu pedido..."></textarea>
+
+        <label class="checkbox-container">
+          <input type="checkbox" id="acepto" name="acepto" required>
+          Acepto los términos y condiciones de privacidad
+        </label>
+
+        <button type="submit" class="btn-submit">Enviar Formulario</button>
+      </form>
     </section>
   </main>
 
-  <footer class="footer">
-    <div class="footer-primary">
-      <p>&copy; 2026 Brújulas Brunton Perú. Todos los derechos reservados.</p>
-    </div>
-    <div class="footer-secondary">
-      <a href="#terminos">Términos y Condiciones</a>
-      <span class="divider">|</span>
-      <a href="#privacidad">Política de Privacidad</a>
-    </div>
+  <footer>
+    <p>&copy; 2026 Brújulas Brunton Perú. Todos los derechos reservados.</p>
   </footer>
 
-  <script src="script.js"></script>
 </body>
 </html>
-    <section id="contacto" class="contact-section">
-      <h2>Contáctanos</h2>
-      <div class="contact-grid">
-        <div class="contact-card">
-          <h3>Atención e Información</h3>
-          <p>📍 <strong>Dirección:</strong> Av. Principal de Minería 456, Lima - Perú</p>
-          <p>📞 <strong>Teléfono Central:</strong> <a href="tel:+5116123456">+51 (01) 612-3456</a></p>
-          <p>📱 <strong>WhatsApp Ventas:</strong> <a href="https://wa.me/51987654321" target="_blank">+51 987 654 321</a></p>
-          <p>✉️ <strong>Correo:</strong> <a href="mailto:ventas@brujulasbrunton.pe">ventas@brujulasbrunton.pe</a></p>
-        </div>
-
-        <div class="contact-card">
-          <h3>Síguenos en Redes</h3>
-          <p>Conéctate con nosotros para ver ofertas y contenido de geología:</p>
-          <div class="social-links">
-            <a href="https://facebook.com" target="_blank" class="social-btn">🌐 Facebook</a>
-            <a href="https://instagram.com" target="_blank" class="social-btn">📸 Instagram</a>
-            <a href="https://linkedin.com" target="_blank" class="social-btn">💼 LinkedIn</a>
-            <a href="https://youtube.com" target="_blank" class="social-btn">🎥 YouTube</a>
-          </div>
-        </div>
-      </div>
-    </section>
