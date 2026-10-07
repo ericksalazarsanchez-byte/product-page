@@ -47,3 +47,8 @@ Landing Page y portal de productos de precisi贸n geol贸gica desarrollada durante
 - **Como** cliente corporativo.
 - **Quiero** enviar mis datos asegur谩ndome de ingresar la informaci贸n correcta antes del env铆o.
 - **Criterios de Aceptaci贸n:** Validaci贸n nativa del navegador sin JavaScript adicional, bloqueo ante errores de sintaxis.
+<!-- Entrega Laboratorio 04 - M骴ulo 1 -->
+
+<!-- Entrega Final M骴ulo 1 - Laboratorio 04 -->
+
+<!-- Entrega Laboratorio 04 - M骴ulo 1 -->
